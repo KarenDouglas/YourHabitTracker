@@ -1,0 +1,184 @@
+body {
+    background-color: #6610f2;
+}
+
+ul {
+    margin-bottom: 1px;
+}
+
+hr {
+    background-color:#d5c8ff;
+}
+
+.blurb-header {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+.blurb-body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.site-banner {
+    background-color: #5109d6;
+    height: 100px;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    border: transparent;
+}
+
+.card-img-top {
+    border-radius: 17px;
+}
+
+.card-title {
+    font-size: 24px !important;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+.form-control{
+    margin-bottom: 1.5rem;
+    border-radius: 0rem;
+    border: transparent;
+    background: #4706be;
+}
+
+.form-control:hover{
+    margin-bottom: 1.5rem;
+    border-radius: 0rem;
+    border: transparent;
+    background: #34048b;
+} 
+
+.form-control::placeholder{
+    color: #a38af7;
+}
+
+.btn-placement {
+    border-radius: 0rem;
+    margin-bottom: .5rem;
+}
+
+.navbar {
+    background-color: #6610f2;
+}
+
+.card-title {
+    font-size: 48px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+.nav-item .nav-link {
+    font-family: 'Varela Round', sans-serif;
+    color: #d5c8ff;
+}
+
+#loginButton {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #9a62ff;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px rgb(44, 15, 90);
+}
+
+#loginButton:hover {
+    background-color: #4706be;
+    border-radius: 3px;
+    box-shadow: 0px 0px;
+    
+}
+
+a.logbtn { 
+    color: whitesmoke;
+}
+
+a.logbtn:hover { 
+    color: whitesmoke;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+.navbar-brand:hover {
+    font-size: 24px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+    color: #d5c8ff;
+}
+
+.footer-text:hover {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+    color: #d5c8ff;
+}
+
+.form-text {
+    color: whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.footer-icon {
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.fa-instagram {
+    border-radius: 15px;
+    color: white;
+	background:#27016d;
+}
+
+.fa-twitter {
+    border-radius: 15px;
+    color: white;
+	background:#27016d;
+}
+
+.fa-facebook-style {
+    border-radius: 15px;
+    color: white;
+	background:#27016d;
+}
+
+.fa-google-style {
+    border-radius: 15px;
+    color: white;
+	background:#27016d;
+}
+
+.site-footer {
+    background: #4706be;
+}
+
+.list-text {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Varela Round', sans-serif;
+    color: #d5c8ff;
+}
+
+.list-text:hover {
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Varela Round', sans-serif;
+    color: #d5c8ff;
+}
+
