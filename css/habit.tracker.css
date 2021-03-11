@@ -1,5 +1,6 @@
 body {
-    background-color: #6610f2;
+    /* background-color: #6610f2; */
+    background-image: url("/img/masthead1.jpg");
 }
 
 ul {
@@ -8,6 +9,18 @@ ul {
 
 hr {
     background-color:#d5c8ff;
+}
+
+#banner-title {
+    font-size: 5vw !important;
+    color: white;
+    text-shadow: 1px 0 10px whitesmoke;
+}
+
+.banner-text {
+    font-size: 2vw;
+    color: white;
+    text-shadow: 1px 0 10px whitesmoke;
 }
 
 .blurb-header {
@@ -23,8 +36,8 @@ hr {
 }
 
 .site-banner {
-    background-color: #5109d6;
-    height: 100px;
+    background-color: transparent;
+    height: 75px;
     margin-bottom: 1.5rem;
 }
 
@@ -40,23 +53,25 @@ hr {
     font-size: 24px !important;
     margin-bottom: 0;
     text-align: center;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .card-text {
     text-align: center;
+    font-family: 'Varela Round', sans-serif;
 }
 .form-control{
     margin-bottom: 1.5rem;
     border-radius: 0rem;
     border: transparent;
-    background: #4706be;
+    background-color: rgb(71, 6, 190, 0.9)
 }
 
 .form-control:hover{
     margin-bottom: 1.5rem;
     border-radius: 0rem;
     border: transparent;
-    background: #34048b;
+    background-color: #34048b;
 } 
 
 .form-control::placeholder{
@@ -69,7 +84,7 @@ hr {
 }
 
 .navbar {
-    background-color: #6610f2;
+    /* background-color: #6610f2; */
 }
 
 .card-title {
@@ -81,6 +96,12 @@ hr {
 .nav-item .nav-link {
     font-family: 'Varela Round', sans-serif;
     color: #d5c8ff;
+}
+
+.nav-item .nav-link:hover {
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    text-shadow: 1px 0 10px whitesmoke;
 }
 
 #loginButton {
@@ -127,6 +148,21 @@ a.logbtn:hover {
     text-decoration: none;
     font-size: 14px;
     font-family: 'Varela Round', sans-serif;
+    color: white;
+    text-shadow: 1px 0 10px whitesmoke;
+}
+
+.footer-text-c {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+    color: #d5c8ff;
+}
+
+.footer-text-c:hover {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
     color: #d5c8ff;
 }
 
@@ -165,7 +201,7 @@ a.logbtn:hover {
 }
 
 .site-footer {
-    background: #4706be;
+    background-color: rgb(71, 6, 190, 0.6)
 }
 
 .list-text {
