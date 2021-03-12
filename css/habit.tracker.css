@@ -10,6 +10,7 @@ body {
 }
 
 
+
 .nav-item .nav-link {
     font-family: 'Varela Round', sans-serif;
     color: #d5c8ff;
@@ -127,34 +128,34 @@ a.logbtn:hover {
         font-size: 7rem;}
     }
     
-    @media (min-width: 768px) {
-        .jumbotxt-body {
-            text-shadow: 1px 0 10px whitesmoke;
-            font-family: 'Varela Round', sans-serif;
-            color: white;
-            text-align: center;
-            font-size: 6rem;}
-    }
-    
-    @media (min-width: 544px) {
-        .jumbotxt-body {
-            text-shadow: 1px 0 10px whitesmoke;
-            font-family: 'Varela Round', sans-serif;
-            color: white;
-            text-align: center;
-            font-size: 5rem;}
-    }
-    
-    @media (max-width: 544px) {
-        .jumbotxt-body {
-            text-shadow: 1px 0 10px whitesmoke;
-            font-family: 'Varela Round', sans-serif;
-            color: white;
-            text-align: center;
-            font-size: 2rem;}
-    
-    }
-    
+@media (min-width: 768px) {
+    .jumbotxt-body {
+        text-shadow: 1px 0 10px whitesmoke;
+        font-family: 'Varela Round', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 6rem;}
+}
+
+@media (min-width: 544px) {
+    .jumbotxt-body {
+        text-shadow: 1px 0 10px whitesmoke;
+        font-family: 'Varela Round', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 5rem;}
+}
+
+@media (max-width: 544px) {
+    .jumbotxt-body {
+        text-shadow: 1px 0 10px whitesmoke;
+        font-family: 'Varela Round', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 2rem;}
+
+}
+
 .blurb-header {
     font-family: 'Varela Round', sans-serif;
     font-size: 32px;
@@ -210,10 +211,6 @@ a.logbtn:hover {
     color: #a38af7;
 }
 
-.btn-placement {
-    border-radius: 0rem;
-    margin-bottom: .5rem;
-}
 
 /* .navbar {
     background-color: #6610f2;
@@ -310,3 +307,106 @@ a.logbtn:hover {
     color: #d5c8ff;
 }
 
+/*button CSS*/
+button {
+	position: relative;
+	padding: 20px 50px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 2em;
+	font-family:'Varela Round', sans-serif;
+	letter-spacing: 4px;
+	overflow: hidden;
+	background: rgba(255,255,255,.1);
+	box-shadow: 0 5px 5px rgba(0,0,0.2);
+}
+button :before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(255,255,255,.1);
+}
+button :after{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(90deg,transparent,rgba(255,255,255,.4),transparent);
+	transition: 0.5s;
+	transition-delay: 0.5s;
+}
+button :hover:after{
+	left: 100%;
+}
+button  span{
+	position: absolute;
+	display: block;
+	transition: 0.5s ease;
+}
+button  span:nth-child(1)
+{
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 1px;
+	background: #fff;
+}
+button :hover span:nth-child(1)
+{
+	width: 100%;
+	transform: translateX(100%);
+}
+button  span:nth-child(3)
+{
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 1px;
+	background: #fff;
+}
+button :hover span:nth-child(3)
+{
+	width: 100%;
+	transform: translateX(-100%);
+}
+button  span:nth-child(2)
+{
+	top: 0;
+	left: 0;
+	width: 1px;
+	height: 0;
+	background: #fff;
+}
+button :hover span:nth-child(2)
+{
+	height: 100%;
+	transform: translateY(100%);
+}
+button  span:nth-child(4)
+{
+	bottom: 0;
+	right: 0;
+	width: 1px;
+	height: 0;
+	background: #fff;
+}
+button :hover span:nth-child(4)
+{
+	height: 100%;
+	transform: translateY(-100%);
+}
+
+.icon {
+    background-color:#CB9BF1;  
+}
+#submit {
+    background-color: #6c69cc;
+}
+input{
+    color: #a38af7;
+}
