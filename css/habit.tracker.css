@@ -1,26 +1,49 @@
+
 body {
-    /* background-color: #6610f2; */
-    background-image: url("/img/masthead1.jpg");
+    background-image: url("/img/1.jpg");
+    background-color: #6610f2
+    /* background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(58, 1, 124); */  
 }
 
-ul {
-    margin-bottom: 1px;
+.ul-footer {
+    margin-bottom: .3rem;
 }
 
-hr {
-    background-color:#d5c8ff;
+
+#subButton {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #9a62ff;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px rgb(44, 15, 90);
+    border: transparent;
 }
 
-#banner-title {
-    font-size: 5vw !important;
-    color: white;
+#subButton:hover {
+    background-color: #4706be;
+    border-radius: 3px;
+    box-shadow: 0px 0px;
+    border: transparent;
+    
+}
+
+.jumbotxt {
     text-shadow: 1px 0 10px whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    font-size: 13rem;
+    text-align: center;
 }
 
-.banner-text {
-    font-size: 2vw;
-    color: white;
+.jumbotxt-body {
     text-shadow: 1px 0 10px whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 5rem;
 }
 
 .blurb-header {
@@ -36,8 +59,8 @@ hr {
 }
 
 .site-banner {
-    background-color: transparent;
-    height: 75px;
+    /* background-color: #5109d6; */
+    height: 4rem;
     margin-bottom: 1.5rem;
 }
 
@@ -83,9 +106,9 @@ hr {
     margin-bottom: .5rem;
 }
 
-.navbar {
-    /* background-color: #6610f2; */
-}
+/* .navbar {
+    background-color: #6610f2;
+} */
 
 .card-title {
     font-size: 48px;
