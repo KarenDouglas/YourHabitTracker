@@ -1,0 +1,221 @@
+
+body {
+    /* background-color: #6610f2; */
+    background-image: url("/img/masthead1.jpg");
+}
+
+ul {
+    margin-bottom: 1px;
+}
+
+hr {
+    background-color:#d5c8ff;
+}
+
+#banner-title {
+    font-size: 5vw !important;
+    color: white;
+    text-shadow: 1px 0 10px whitesmoke;
+}
+
+.banner-text {
+    font-size: 2vw;
+    color: white;
+    text-shadow: 1px 0 10px whitesmoke;
+}
+
+.blurb-header {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+.blurb-body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.site-banner {
+    background-color: transparent;
+    height: 75px;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    border: transparent;
+}
+
+.card-img-top {
+    border-radius: 17px;
+}
+
+.card-title {
+    font-size: 24px !important;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.card-text {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+.form-control{
+    margin-bottom: 1.5rem;
+    border-radius: 0rem;
+    border: transparent;
+    background-color: rgb(71, 6, 190, 0.9)
+}
+
+.form-control:hover{
+    margin-bottom: 1.5rem;
+    border-radius: 0rem;
+    border: transparent;
+    background-color: #34048b;
+} 
+
+.form-control::placeholder{
+    color: #a38af7;
+}
+
+.btn-placement {
+    border-radius: 0rem;
+    margin-bottom: .5rem;
+}
+
+.navbar {
+    /* background-color: #6610f2; */
+}
+
+.card-title {
+    font-size: 48px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+.nav-item .nav-link {
+    font-family: 'Varela Round', sans-serif;
+    color: #d5c8ff;
+}
+
+.nav-item .nav-link:hover {
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    text-shadow: 1px 0 10px whitesmoke;
+}
+
+#loginButton {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #9a62ff;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px rgb(44, 15, 90);
+}
+
+#loginButton:hover {
+    background-color: #4706be;
+    border-radius: 3px;
+    box-shadow: 0px 0px;
+    
+}
+
+a.logbtn { 
+    color: whitesmoke;
+}
+
+a.logbtn:hover { 
+    color: whitesmoke;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+.navbar-brand:hover {
+    font-size: 24px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+    color: #d5c8ff;
+}
+
+.footer-text:hover {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+    text-shadow: 1px 0 10px whitesmoke;
+}
+
+.footer-text-c {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+    color: #d5c8ff;
+}
+
+.footer-text-c:hover {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Varela Round', sans-serif;
+    color: #d5c8ff;
+}
+
+.form-text {
+    color: whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.footer-icon {
+    text-align: center;
+    padding-bottom: 3px;
+}
+
+.fa-instagram {
+    border-radius: 15px;
+    color: white;
+	background:#27016d;
+}
+
+.fa-twitter {
+    border-radius: 15px;
+    color: white;
+	background:#27016d;
+}
+
+.fa-facebook-style {
+    border-radius: 15px;
+    color: white;
+	background:#27016d;
+}
+
+.fa-google-style {
+    border-radius: 15px;
+    color: white;
+	background:#27016d;
+}
+
+.site-footer {
+    background-color: rgb(71, 6, 190, 0.6)
+}
+
+.list-text {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Varela Round', sans-serif;
+    color: #d5c8ff;
+}
+
+.list-text:hover {
+    text-decoration: none;
+    font-size: 10px;
+    font-family: 'Varela Round', sans-serif;
+    color: #d5c8ff;
+}
+

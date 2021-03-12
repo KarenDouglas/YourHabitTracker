@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Press+Start+2P&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/habit.tracker.css" />
+        <title>Habit / Tracker</title>
+    </head>
+<body>
+
+<!-- Start Nav -->    
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+            <div class="navbar-header ml-auto">
+                    <a class="navbar-brand active" href="habitTrackerLanding.html">Habit / Tracker</a> 
+            </div>
+            <div class="collapse navbar-collapse" id="htNavbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item"><a href="#signup" class="nav-link">Get Started!</a></li>
+                        <li class="nav-item"><a href="#features" class="nav-link">Your Features</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Learn More</a></li>
+                    </ul> 
+            </div>
+            <span class="mr-auto" id="loginButton">
+                <a role="button" href="#" class="btn logbtn">Login</a>
+            </span>
+        </div>
+    </nav>
+<!-- End Nav -->
+
+<!-- Header Start -->
+<!-- <header class="masthead">
+    <div class="card">
+        <img class="card-img" src="img/masthead1.jpg">
+        <div class="card-img-overlay">
+            <h2 id="banner-title" class="card-title text-center">Habit / Tracker</h2>
+            <p class="card-text text-center banner-text">A free habit tracking app. Turn your habits into a gamified experience!</p>
+        </div>
+    </div>  
+</header> -->
+<!-- Header End -->
+
+
+<!-- Start Habit/Tracker Blurb-->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <h4 class="text-center blurb-header">Gamify / Habits</h4>
+                    <p class="d-xs-none d-md-block text-center blurb-body">Building habits is difficult, but so is the Hero's Journey. Let's gamify the adventure!</p>    
+            </div>
+        </div>
+    </div>
+<!-- End Habit/Tracker Blurb-->
+
+<!-- Start Card Deck-->
+    <div class="container">
+        <div id="features" class="card-deck">
+            <div class="card bg-transparent text-white">
+                <img class="card-img-top" src="img/trackit.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Add Habits</h5>
+                    <p class="d-xs-none d-md-block card-text">Heade the hero's call, add your habits to begin your quest!</p>
+                </div>
+            </div>  
+            <div class="card bg-transparent text-white">
+                <img class="card-img-top" src="img/progress.jpg">
+                <div class="card-body">
+                    <h5 class="card-title">Check Your Progress</h5>
+                    <p class="d-xs-none d-md-block card-text">Track progression with live metrics! Meet your goals to gain INFINITE POWER!</p>
+                </div>
+            </div>
+            <div class="card bg-transparent text-white">
+                <img class="card-img-top" src="img/gameover.jpg">
+                <div class="card-body">
+                    <h5 class="card-title nowrap">Play with Friends!</h5>
+                    <p class="d-xs-none d-md-block card-text">Battle your friends or group up to defeat monsters!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- End Card Deck -->
+
+<div class="container-fluid">
+    <div class="row site-banner">
+        </div>
+    </div>
+</div>
+
+<!-- Start Sign Up Form -->
+    <div class="container">
+        <form>
+            <h3 class="form-text text-center">Sign Up : Gamify Your Habits</h3>
+            <p class="form-text text-center">Username must be 1 to 20 characters, containing only letters a to z, numbers 0 to 9, hyphens, or underscores, and cannot include any inappropriate terms.</p>
+            <input class="form-control" type="text" placeholder="Username">
+            <input class="form-control" type="email" placeholder="Email">
+            <input class="form-control" type="password" placeholder="Password">
+            <input class="form-control" type="password" placeholder="Confirm Password">
+            <p class="form-text text-center">By clicking the button below, you are indicating that you have read and agree to the Terms of Service and Privacy Policy.</p>
+            <button type="submit" class="btn btn-block btn-info btn-placement">Sign Up</button>
+            <hr>
+            <a id="signup" class="btn btn-block btn-social btn-google btn-placement"><span class="fa fa-google"></span>Sign up with Google</a>
+            <a class="btn btn-block btn-social btn-facebook btn-placement"><span class="fa fa-facebook"></span>Sign up with Facebook</a>
+        </form>
+    </div>
+<!-- End Sign Up Form-->
+<div class="container-fluid">
+    <div class="row site-banner">
+        </div>
+    </div>
+</div>
+<!-- Start Footer -->
+    <footer class="site-footer">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <ul class="list-unstyled">
+                        <li><a class="footer-text" href="habitTrackerLanding.html">Habit/Tracker</a></li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <ul class="list-unstyled">
+                        <li><a class="footer-text" href="#">Get Started!</a></li>
+                    </ul>
+                </div>
+                <div class="col-auto">
+                    <ul class="list-unstyled">
+                        <li><a class="footer-text" href="#">Learn More</a></li>
+                    </ul>
+                </div>
+            </div> 
+            <div class= "row">    
+                <div class="footer-icon col-12 text-center align-self-center">
+                    <a class="btn btn-sm btn-social-icon" href="http://google.com/"><i class="fa fa-google fa-google-style"></i></a>
+                    <a class="btn btn-sm btn-social-icon" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+                    <a class="btn btn-sm btn-social-icon" href="http://facebook.com/"><i class="fa fa-facebook fa-facebook-style"></i></a>
+                    <a class="btn btn-sm btn-social-icon" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+                </div>
+                <div class="col-12 algin-self-center text-center text-white">
+                    <p class="mb-0 footer-text-c">© All right Reversed.<a class="ml-2 footer-text-c" href="https://www.sunlimetech.com" target="_blank">Habit / Tracker</a></p>
+                </div>
+            </div> 	                
+        </div>
+    </footer>
+<!-- End Footer -->    
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
