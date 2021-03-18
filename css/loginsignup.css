@@ -154,3 +154,10 @@ header{
 	text-align: center;
 	
 }
+
+.register {
+    font-family: 'Varela Round', sans-serif;
+    text-shadow: 1px 0 10px whitesmoke;
+    color: white;
+    font-size: 3rem;
+}
