@@ -1,98 +1,14 @@
 
 body {
-    /* background-color: #6610f2; */
-    background-image: url("/img/masthead1.jpg");
+    background-image: url("/img/1.jpg");
+    background-color: #6610f2;
+    /* background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(58, 1, 124); */  
 }
 
-ul {
-    margin-bottom: 1px;
-}
-
-hr {
-    background-color:#d5c8ff;
-}
-
-#banner-title {
-    font-size: 5vw !important;
-    color: white;
-    text-shadow: 1px 0 10px whitesmoke;
-}
-
-.banner-text {
-    font-size: 2vw;
-    color: white;
-    text-shadow: 1px 0 10px whitesmoke;
-}
-
-.blurb-header {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 32px;
-    color: white;
-}
-
-.blurb-body {
-    font-family: 'Varela Round', sans-serif;
-    font-size: 18px;
-    color: white;
-}
-
-.site-banner {
-    background-color: transparent;
-    height: 75px;
-    margin-bottom: 1.5rem;
-}
-
-.card {
-    border: transparent;
-}
-
-.card-img-top {
-    border-radius: 17px;
-}
-
-.card-title {
-    font-size: 24px !important;
-    margin-bottom: 0;
-    text-align: center;
-    font-family: 'Varela Round', sans-serif;
-}
-
-.card-text {
-    text-align: center;
-    font-family: 'Varela Round', sans-serif;
-}
-.form-control{
-    margin-bottom: 1.5rem;
-    border-radius: 0rem;
-    border: transparent;
-    background-color: rgb(71, 6, 190, 0.9)
-}
-
-.form-control:hover{
-    margin-bottom: 1.5rem;
-    border-radius: 0rem;
-    border: transparent;
-    background-color: #34048b;
-} 
-
-.form-control::placeholder{
-    color: #a38af7;
-}
-
-.btn-placement {
-    border-radius: 0rem;
-    margin-bottom: .5rem;
-}
-
-.navbar {
-    /* background-color: #6610f2; */
-}
-
-.card-title {
-    font-size: 48px;
-    font-family: 'Varela Round', sans-serif;
-    color: white;
-}
 
 .nav-item .nav-link {
     font-family: 'Varela Round', sans-serif;
@@ -137,6 +53,181 @@ a.logbtn:hover {
     font-size: 24px;
     font-family: 'Varela Round', sans-serif;
     color: white;
+}
+
+#exspacer {
+    margin-bottom: 22rem;
+}
+
+#subButton {
+    font-family: 'Varela Round', sans-serif;
+    background-color: #9a62ff;
+    border-radius: 3px;
+    box-shadow: 1.5px 1.5px rgb(44, 15, 90);
+    border: transparent;
+}
+
+#subButton:hover {
+    background-color: #4706be;
+    border-radius: 3px;
+    box-shadow: 0px 0px;
+    border: transparent;
+    
+}
+
+
+@media (min-width: 992px) {
+.jumbotxt {
+    font-size: 8rem !important; 
+    text-shadow: 1px 0 10px whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 13rem;
+    color: white;}
+}
+
+@media (min-width: 768px) {
+.jumbotxt {
+    font-size: 7rem; 
+    text-shadow: 1px 0 10px whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 13rem;
+    color: white;}
+}
+
+@media (min-width: 544px) {
+    .jumbotxt {
+    font-size: 6rem; 
+    text-shadow: 1px 0 10px whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 13rem;
+    color: white;}
+}
+
+@media (max-width: 544px) {
+.jumbotxt {
+    font-size: 2.5rem; 
+    text-shadow: 1px 0 10px whitesmoke;
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 10rem;
+    color: white;}
+
+}
+
+
+@media (min-width: 992px) {
+    .jumbotxt-body {
+        text-shadow: 1px 0 10px whitesmoke;
+        font-family: 'Varela Round', sans-serif;
+        color: white;
+        text-align: center;
+        font-size: 7rem;}
+    }
+    
+    @media (min-width: 768px) {
+        .jumbotxt-body {
+            text-shadow: 1px 0 10px whitesmoke;
+            font-family: 'Varela Round', sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 6rem;}
+    }
+    
+    @media (min-width: 544px) {
+        .jumbotxt-body {
+            text-shadow: 1px 0 10px whitesmoke;
+            font-family: 'Varela Round', sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 5rem;}
+    }
+    
+    @media (max-width: 544px) {
+        .jumbotxt-body {
+            text-shadow: 1px 0 10px whitesmoke;
+            font-family: 'Varela Round', sans-serif;
+            color: white;
+            text-align: center;
+            font-size: 2rem;}
+    
+    }
+    
+.blurb-header {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+.blurb-body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.site-banner {
+    /* background-color: #5109d6; */
+    height: 4rem;
+    margin-bottom: 1.5rem;
+}
+
+.card {
+    border: transparent;
+}
+
+.card-img-top {
+    border-radius: 17px;
+}
+
+.card-title {
+    font-size: 24px !important;
+    margin-bottom: 0;
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.card-text {
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+}
+.form-control{
+    margin-bottom: 1.5rem;
+    border-radius: 0rem;
+    border: transparent;
+    background-color: rgb(71, 6, 190, 0.9);
+}
+
+.form-control:hover{
+    margin-bottom: 1.5rem;
+    border-radius: 0rem;
+    border: transparent;
+    background-color: #34048b;
+} 
+
+.form-control::placeholder{
+    color: #a38af7;
+}
+
+.btn-placement {
+    border-radius: 0rem;
+    margin-bottom: .5rem;
+}
+
+/* .navbar {
+    background-color: #6610f2;
+} */
+
+.card-title {
+    font-size: 48px;
+    font-family: 'Varela Round', sans-serif;
+    color: white;
+}
+
+
+.ul-footer {
+    margin-bottom: .3rem;
 }
 
 .footer-text {
@@ -202,7 +293,7 @@ a.logbtn:hover {
 }
 
 .site-footer {
-    background-color: rgb(71, 6, 190, 0.6)
+    background-color: rgb(71, 6, 190, 0.6);
 }
 
 .list-text {
