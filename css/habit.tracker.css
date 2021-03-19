@@ -2,11 +2,10 @@
 body {
     background-image: url("/img/1.jpg");
     background-color: #6610f2;
-    /* background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: rgb(58, 1, 124); */  
+    /* background-position: center center; */
+    /* background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: cover;  */
 }
 
 
@@ -156,6 +155,12 @@ a.logbtn:hover {
 
 }
 
+#mobile-header {
+    font-family: 'Varela Round', sans-serif !important;
+    font-size: 32px !important;
+    color: white !important;
+}
+
 .blurb-header {
     font-family: 'Varela Round', sans-serif;
     font-size: 32px;
@@ -170,9 +175,14 @@ a.logbtn:hover {
 
 .site-banner {
     /* background-color: #5109d6; */
-    height: 4rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 22rem;
 }
+
+.site-banner-footer {
+    /* background-color: #5109d6; */
+    margin-bottom: 10rem;
+}
+
 
 .card {
     border: transparent;
@@ -288,6 +298,17 @@ a.logbtn:hover {
     color: white;
 	background:#27016d;
 }
+
+.fa-mobile {
+    font-size: 30rem;
+    background: -webkit-linear-gradient(90deg, rgba(103,103,113,1) 10%, rgba(183,222,241,1) 54%, rgba(47,51,52,0.9808298319327731) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* #mobilebg {
+    background-color: rgb(71, 6, 190, 0.6);
+} */
 
 .site-footer {
     background-color: rgb(71, 6, 190, 0.6);
