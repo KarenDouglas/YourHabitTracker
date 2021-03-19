@@ -301,7 +301,7 @@ a.logbtn:hover {
 
 .fa-mobile {
     font-size: 30rem;
-    background: -webkit-linear-gradient(90deg, rgba(103,103,113,1) 10%, rgba(183,222,241,1) 54%, rgba(47,51,52,0.9808298319327731) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,0.9808298319327731) 20%, rgba(183,222,241,1) 50%, rgba(0,0,0,0.9808298319327731) 84%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
