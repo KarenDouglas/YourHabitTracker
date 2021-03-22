@@ -1,0 +1,73 @@
+body {
+background-image: url("/img/learnMoreBg.jpg"); */
+} 
+
+ul li {
+    padding: 1px 10px;
+    justify-content: center;
+}
+#faqHeader {
+  
+}
+.card {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+#footer {
+    margin-top: 200px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+  }
+  
+  #footer-content {
+  
+    
+    height: 32px; 
+    padding: 8px;
+  }
+ h3, .accordion-header {
+   background-color: white;
+  color: white;  
+  font-family: 'Varela Round', sans-serif;
+  }
+  .accordion-body {
+    background-color: white;
+  }
+footer{
+border-top: darkblue solid 1px;
+}
+
+#footer a{ 
+text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  color: white;
+}
+nav {
+  background-color: transparent;
+}
+#faqHeader{
+  padding: 20px;
+  background-color: transparent;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+
+/* temporary design for cards for demonstration */
+.card-header {
+  background-color:#c13ad3 ;
+  padding: 30px;
+  color: white;
+  text-align: center;
+
+label {
+  color: white;
+}
+
+.text-shade{
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+#submit {
+  background-color: white;
+}
